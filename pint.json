@@ -1,0 +1,33 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "binary_operator_spaces": {
+            "default": "single_space"
+        },
+        "array_syntax": {
+            "syntax": "short"
+        },
+        "ordered_imports": true,
+        "no_unused_imports": true,
+        "single_quote": true,
+        "phpdoc_no_empty_return": true,
+        "phpdoc_order": true,
+        "phpdoc_align": true,
+        "phpdoc_summary": true,
+        "return_type_declaration": {
+            "space_before": "none"
+        },
+        "method_argument_space": {
+            "on_multiline": "ensure_fully_multiline"
+        },
+        "class_attributes_separation": {
+            "elements": {
+                "method": "one",
+                "property": "one"
+            }
+        },
+        "declare_strict_types": true
+    },
+    "exclude": ["vendor", "storage", "bootstrap/cache", "node_modules"],
+    "notPath": ["database/migrations/*_*.php"]
+}
